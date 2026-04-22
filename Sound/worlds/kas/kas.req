@@ -1,11 +1,6 @@
 ucft
 {
-    REQN
-    {
-        "str"
-        "align=2048"
-        "kas"
-    }
+   
     REQN
     {
         "lvl"
