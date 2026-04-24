@@ -1,6 +1,6 @@
 ## PSP Sound build project
 After much time, it was discovered that PSP & PS2 use the same sound format for the  `sfx` sounds.
-See the [Sound File Analysis](https://github.com/BAD-AL/SWBF2_Xbox_mod_effort/wiki/Sound-File-Analysis) on the Gametoast wiki for more details.
+See the [Sound File Analysis](https://github.com/BAD-AL/SWBF2_Xbox_mod_effort/wiki/Sound-File-Analysis) for more details.
 
 The major difference is that PSP sound _streams_ use `altrac 3 plus` for their encoding which the `bf2 modtools` do not produce.
 But since most of the PSP world 'sound' .lvl files do not contain streams, we're in a bit of luck because the modtools do include the ability to produce the `VAG` output consumed by both the PS2 and PSP. 
