@@ -1,3 +1,4 @@
+
 ## PSP Sound build project
 After much time, it was discovered that PSP & PS2 use the same sound format for the  `sfx` sounds.
 See the [Sound File Analysis](https://github.com/BAD-AL/SWBF2_Xbox_mod_effort/wiki/Sound-File-Analysis) for more details.
@@ -28,3 +29,10 @@ The various sound .lvl files to need to be checked, if you find that a sound lvl
 It is possible to create valid sound streams for the PSP using the `at3tool.exe` program. 
 An experimental release (v1.1) now does support building sound 'streams' for PSP. 
 
+### Sound Swapper Web App
+There is also a web app available that will allow you to 'swap' out sounds from the PSP sound files (any version actually).
+The PSP .sfx (sound effects) are swappable from .wav files.
+For the PSP streams, you'll need to convert them to at3plus with `at3tool.exe` first.
+
+(click to visit)
+[![Alt Text](https://github.com/BAD-AL/bf_sound_swapper/blob/main/sound_swapper.png)](https://bad-al.github.io/bf_sound_swapper/)
